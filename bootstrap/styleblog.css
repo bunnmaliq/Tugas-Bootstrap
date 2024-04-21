@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Warna font */
+    background-color: #f8f9fa; /* Warna background */
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  h1 {
+    color: #007bff; /* Warna font judul */
+  }
+  
+  .card {
+    background-color: #fff; /* Warna background kartu */
+    border-radius: 10px; /* Sudut melengkung kartu */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan kartu */
+  }
+  
+  .card-title {
+    color: #007bff; /* Warna font judul kartu */
+  }
+  
+  .card-text {
+    font-size: 16px; /* Ukuran font teks kartu */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Warna background tombol */
+    border-color: #007bff; /* Warna border tombol */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Warna background tombol saat dihover */
+    border-color: #0056b3; /* Warna border tombol saat dihover */
+  }
+  

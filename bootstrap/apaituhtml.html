@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="articlestyle.css" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="container">
+      <h1 class="display-4">iBlog</h1>
+    <div class="row">
+      <div class="col-md-12">
+        <!-- Article Content -->
+        <h2 class="mt-4">Apa itu HTML?</h2>
+        <p>CHTML adalah singkatan dari Hypertext Markup Language, HTML merupakan salah satu bahasa pengkodean atau pemograman yang digunakan untuk membuat halaman website yang ditampilkan pada web browser. Sebagian besar halaman yang kamu temukan pada internet kebanyakan menggunakan Bahasa HTML.</p>
+
+        <h2 class ="mt-5">Sejarah Singkat Bahasa Pemograman HTML</h2>
+        <p>HTML diciptakan oleh Sir Tim Berners-lee pada akhir tahun 1991 namun tidak dirilis secara resmi. Sir Tim Berners-lee merilis HTML versi pertama pada tahun 1993 dengan tujuan untuk berbagi informasi yang dapat dibaca dan diakses melalui web browser.
+          Hingga saat ini versi HTML sudah mencapai versi 5 yang dirilis pada tahun 2012, Versi HTML 5 ini merupakan terusan dari perpanjangan versi HTML 4.01 yang sebelumnya digunakan oleh kebanyakan orang.</p>
+        <h3 class ="mt-5">Kelebihan dan Kekurangan HTML</h3>
+        <p>Berikut merupakan kelebihan HTML:</p>
+        <ol type="1">
+          <li>Memiliki banyak sumber dan komunitas yang sangat besar.</li>
+          <li>Bersifat Open Source sehingga gratis untuk digunakan</li>
+          <li>Memiliki Bahasa Markup yang konsisten dan rapi</li>
+          <li>Mudah diintegrasikan dengan Bahasa backend seperti PHP, Node.js dan javascript</li>
+          <li>Bisa dijalankan oleh semua Browser.</li>
+          <li>Dapat dipelajari dengan mudah oleh web developer pemula.</li>
+        </ol>
+        <P>Berikut merupakan kekurangan HTML:</P>
+        <ol type="2">
+          <li>Bahasa pemograman HTML hanya dapat diimplementasikan untuk halaman web static . jika ingin menambah fitur dinamis, pengguna dapat menggunakan bahasa pemograman back-end seperti javascript atau Bahasa pemograman back-end lainnya.</li>
+          <li>Terdapat fitur baru yang tidak dapat dijalankan dengan cepat oleh web browser.</li>
+          <li>Bahasa pemograman HTML tidak mendukung logic sehingga semua halaman website harus dibuat secara terpisah</li>
+        </ol>
+        <h4 class="mt-5">Cara Kerja Bahasa Pemrograman HTML</h4>
+        <p>Pertama-tama kamu harus membuat dokumen HTML pada aplikasi editor HTML seperti Visual Studio, Sublime Text dan lain-lainnya , lalu menyimannya dengan format html atau htm. File HTML dibuat bisa lebih dari satu tergantung kebutuhan file yang akan diperlukan. File-file yang telah dibuat ini berisi Halaman Utama , kontak , isi Website dan lain-lain.
+          File HTML dapat dibuka oleh web browser seperti Google Chrome , Mozilla Firefox, Internet Explore dan masih banyak lagi. Kemudian, agar dapat diakses oleh banyak orang kamu harus menyewa layanan Hosting website dan mengupload file HTML pada halaman hosting yang dapat kamu akses pada cpanel.
+          File HTML yang sudah terupload, maka browser akan merender file HTML menjadi halaman website sehingga kamu dan pengunjung web lain dapat mengaksesnya melalui internet.</p>
+        <!-- Share Button -->
+        <button class="btn btn-primary">Share</button>
+        <!-- Home Buttons -->
+        <div class="btn-group mt-2" role="group" aria-label="Home Buttons">
+          <a href="blog.html" class="btn btn-primary">Home</a>
+
+        </div>
+        <!-- Recommended Articles -->
+        <div class="mt-4">
+          <h3>Recommended Articles</h3>
+          <ul>
+            <li><a href="index.html">Apa itu CSS?</a></li>
+            <li><a href="index.html">Apa itu Javascript?</a></li>
+            <li><a href="index.html">Apa itu Bootstrap?</a></li>
+          </ul>
+        </div>
+        <!-- Visitor Comments -->
+        <div class="mt-4">
+          <h3>Visitor Comments</h3>
+          <!-- Comment Form -->
+          <form>
+            <div class="form-group">
+              <label for="commentName">Name:</label>
+              <input type="text" class="form-control" id="commentName">
+            </div>
+            <div class="form-group">
+              <label for="commentContent">Comment:</label>
+              <textarea class="form-control" id="commentContent" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          <!-- Comment Section -->
+          <div class="mt-4">
+            <h4>Comments:</h4>
+            <div class="media">
+              <img class="mr-3" src="..." alt="Commenter Avatar">
+              <div class="media-body">
+                <h5 class="mt-0">Commenter Name</h5>
+                Comment content goes here...
+              </div>
+            </div>
+            <!-- More comments can be added similarly -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
